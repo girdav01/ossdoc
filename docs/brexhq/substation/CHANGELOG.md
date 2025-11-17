@@ -1,0 +1,546 @@
+# Changelog
+
+## [2.7.0](https://github.com/brexhq/substation/compare/v2.6.0...v2.7.0) (2025-08-05)
+
+
+### Features
+
+* **transform:** support checksum algorithm in send to s3 ([#309](https://github.com/brexhq/substation/issues/309)) ([9e3a62c](https://github.com/brexhq/substation/commit/9e3a62c20dd203d8c7716c487c8d519934be872d))
+
+## [2.6.0](https://github.com/brexhq/substation/compare/v2.5.0...v2.6.0) (2025-07-14)
+
+
+### Features
+
+* **cmd:** Add S3-SQS Handler ([#301](https://github.com/brexhq/substation/issues/301)) ([ee1e551](https://github.com/brexhq/substation/commit/ee1e551cefdb162ee496204acd19253720654854))
+* **transform:** allow use of a value from a key for the suffix in string append ([#304](https://github.com/brexhq/substation/issues/304)) ([134bacf](https://github.com/brexhq/substation/commit/134bacff84228d2d167dc12a9f116208daf3a43a))
+
+## [2.5.0](https://github.com/brexhq/substation/compare/v2.4.0...v2.5.0) (2025-05-21)
+
+
+### Features
+
+* **gcp:** Add GCP Function and GCS Support ([#299](https://github.com/brexhq/substation/issues/299)) ([413be62](https://github.com/brexhq/substation/commit/413be623971e79d7090349b135162fd10870fe1a))
+
+## [2.4.0](https://github.com/brexhq/substation/compare/v2.3.4...v2.4.0) (2025-03-04)
+
+
+### Features
+
+* **cmd:** set kinesis metadata in tap CLI ([#293](https://github.com/brexhq/substation/issues/293)) ([4156385](https://github.com/brexhq/substation/commit/4156385edf3605005245da83c35ff385ccdde847))
+* **transform:** add JSON object support in the obj_to_string transform ([#290](https://github.com/brexhq/substation/issues/290)) ([fd858a9](https://github.com/brexhq/substation/commit/fd858a9d0b64039317cf377abc5ee9be514905be))
+
+
+### Bug Fixes
+
+* **actions:** results upload artifact name ([#295](https://github.com/brexhq/substation/issues/295)) ([740e0d0](https://github.com/brexhq/substation/commit/740e0d0e7071e5b816a5b58aecf4ae4fad856bd8))
+* **cmd:** Add SkipMissingValues flag in Playground ([#292](https://github.com/brexhq/substation/issues/292)) ([e786320](https://github.com/brexhq/substation/commit/e786320a07a0038329b631188e2b4a3e930ac412))
+* **message:** revert 'Add Flag Support' ([#264](https://github.com/brexhq/substation/issues/264)) ([#296](https://github.com/brexhq/substation/issues/296)) ([972df08](https://github.com/brexhq/substation/commit/972df08029ba413f815290c007bfb6ec65aaca3c))
+
+## [2.3.4](https://github.com/brexhq/substation/compare/v2.3.3...v2.3.4) (2024-12-19)
+
+
+### Bug Fixes
+
+* only build release artifacts on releases ([#286](https://github.com/brexhq/substation/issues/286)) ([e4026ae](https://github.com/brexhq/substation/commit/e4026ae4219f60ff86897e00f2e25483014a9937))
+
+## [2.3.3](https://github.com/brexhq/substation/compare/v2.3.2...v2.3.3) (2024-12-02)
+
+
+### Bug Fixes
+
+* **cmd:** CLI Config Relative Imports ([#279](https://github.com/brexhq/substation/issues/279)) ([3b18bfe](https://github.com/brexhq/substation/commit/3b18bfe763c5c73887c6b6cad364df45385416c7))
+* **message:** use correct encodings for JSON Number values ([#281](https://github.com/brexhq/substation/issues/281)) ([d476fa5](https://github.com/brexhq/substation/commit/d476fa510b4bc8fdb19f507a3d721e897f637a8e))
+* **playground:** trim quotes from environment variables ([#282](https://github.com/brexhq/substation/issues/282)) ([83bd0e8](https://github.com/brexhq/substation/commit/83bd0e8bb9901f3394cbab6d85baf42690de01ba))
+
+## [2.3.2](https://github.com/brexhq/substation/compare/v2.3.1...v2.3.2) (2024-11-26)
+
+
+### Bug Fixes
+
+* **condition:** handling of missing source and/or target keys ([#277](https://github.com/brexhq/substation/issues/277)) ([090981b](https://github.com/brexhq/substation/commit/090981b9792f12d6187f5e3c87a1e7667a295814))
+
+## [2.3.1](https://github.com/brexhq/substation/compare/v2.3.0...v2.3.1) (2024-11-07)
+
+
+### Bug Fixes
+
+* **transform:** Add SkipMissingValues Flag to Test Transform ([#273](https://github.com/brexhq/substation/issues/273)) ([21ff1db](https://github.com/brexhq/substation/commit/21ff1dbfee305398cbaf3a210d9e1a6ef50cca69))
+
+## [2.3.0](https://github.com/brexhq/substation/compare/v2.2.0...v2.3.0) (2024-11-04)
+
+
+### Features
+
+* added support for new substation playground command ([#262](https://github.com/brexhq/substation/issues/262)) ([82f39e8](https://github.com/brexhq/substation/commit/82f39e89088d055579f315111d8ce4ced99d6036))
+* **cmd:** Add tap and read Commands to CLI Tool ([#269](https://github.com/brexhq/substation/issues/269)) ([6149968](https://github.com/brexhq/substation/commit/6149968e522f52241826fce8a4ac37b06708cbf5))
+* **cmd:** log test errors ([#272](https://github.com/brexhq/substation/issues/272)) ([917e29f](https://github.com/brexhq/substation/commit/917e29fbaebd754be64270e1e82bf617827ca187))
+* **deps:** Upgrade to Latest Minor Versions ([#266](https://github.com/brexhq/substation/issues/266)) ([9db10a8](https://github.com/brexhq/substation/commit/9db10a8dc34e30c6c7862cfee63c871cd2c81310))
+* **message:** Add Flag Support ([#264](https://github.com/brexhq/substation/issues/264)) ([1acc9a0](https://github.com/brexhq/substation/commit/1acc9a0ea2b33154b3608b13ffd6f7792363ce0b))
+
+
+### Bug Fixes
+
+* **message:** Update Flag Iota ([#270](https://github.com/brexhq/substation/issues/270)) ([1f43c15](https://github.com/brexhq/substation/commit/1f43c15e79af2d39cab438d3a619e27cdbe64933))
+
+## [2.2.0](https://github.com/brexhq/substation/compare/v2.1.0...v2.2.0) (2024-10-10)
+
+
+### Features
+
+* add support for formatting jsonnet with substation cli ([#250](https://github.com/brexhq/substation/issues/250)) ([6cae3cd](https://github.com/brexhq/substation/commit/6cae3cd80492a5e8208bc1bab2d6fe17fc6aa87b))
+* **cmd:** Add build Command to CLI Tool ([#252](https://github.com/brexhq/substation/issues/252)) ([5ffe528](https://github.com/brexhq/substation/commit/5ffe528b85ec2ac1db2f389ce89ccdb553f14d41))
+* **cmd:** Add vet Command to CLI Tool ([#253](https://github.com/brexhq/substation/issues/253)) ([97fbc92](https://github.com/brexhq/substation/commit/97fbc922e3323f5bec8ae5bd5625488f8f160ee1))
+
+
+### Bug Fixes
+
+* **internal/secrets:** Error on Missing Secrets ([#260](https://github.com/brexhq/substation/issues/260)) ([b788992](https://github.com/brexhq/substation/commit/b788992969d7ef311bc5f6865e367870c5786aa0))
+
+## [2.1.0](https://github.com/brexhq/substation/compare/v2.0.0...v2.1.0) (2024-10-03)
+
+
+### Features
+
+* **cmd:** Add CLI Tool ([#244](https://github.com/brexhq/substation/issues/244)) ([55a62bc](https://github.com/brexhq/substation/commit/55a62bcd5fef33d83552b9a2a7e8795766171859))
+
+
+### Bug Fixes
+
+* **cmd:** Out of Bounds int32 Check in AWS Lambda Autoscale ([#238](https://github.com/brexhq/substation/issues/238)) ([bcc8108](https://github.com/brexhq/substation/commit/bcc81088529a0dfc6d5ed62c99c0b68b68767ddf))
+* **cmd:** Pre-Compile Demo Config ([#247](https://github.com/brexhq/substation/issues/247)) ([81d50b8](https://github.com/brexhq/substation/commit/81d50b84b2f95f90a3904dcb3c70dcd4c215dc94))
+* **condition:** Remove v1 Imports ([#246](https://github.com/brexhq/substation/issues/246)) ([fc22eeb](https://github.com/brexhq/substation/commit/fc22eeb49ebbded3097ed986f8f8e02cd6cf8de2))
+
+## [2.0.0](https://github.com/brexhq/substation/compare/v1.7.1...v2.0.0) (2024-09-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* Release v2.0.0 ([#228](https://github.com/brexhq/substation/issues/228))
+
+### Features
+
+* Release v2.0.0 ([#228](https://github.com/brexhq/substation/issues/228)) ([c4d8849](https://github.com/brexhq/substation/commit/c4d88491e1d9eee302a49c427e7d9e52b6a31fde))
+
+## [1.7.1](https://github.com/brexhq/substation/compare/v1.7.0...v1.7.1) (2024-08-05)
+
+
+### Bug Fixes
+
+* **build/config:** Self-Referential Jsonnet Function ([#225](https://github.com/brexhq/substation/issues/225)) ([f58665a](https://github.com/brexhq/substation/commit/f58665af6100f8e1f23f96d6866507b7da43474f))
+
+## [1.7.0](https://github.com/brexhq/substation/compare/v1.6.0...v1.7.0) (2024-07-30)
+
+
+### Features
+
+* **condition:** Add MetaErr Inspector ([#217](https://github.com/brexhq/substation/issues/217)) ([b9c685e](https://github.com/brexhq/substation/commit/b9c685eb32e89dd86227a562764735517f28110b))
+* **condition:** Update conditions to support source and target key comparisons ([#214](https://github.com/brexhq/substation/issues/214)) ([dfbc678](https://github.com/brexhq/substation/commit/dfbc678409c720fff1382a47180dd7587a231368))
+* **transform:** Add FormatFromZip Transform ([#221](https://github.com/brexhq/substation/issues/221)) ([d9304ca](https://github.com/brexhq/substation/commit/d9304cad6130a18037c7bf459910a0219d6eace1))
+* **transform:** Add KV Store Set Add Transform ([#215](https://github.com/brexhq/substation/issues/215)) ([b293b79](https://github.com/brexhq/substation/commit/b293b79518248f2d2e132ad9be76568861f5b6a3))
+* **transform:** Add MetaRetry Transform ([#222](https://github.com/brexhq/substation/issues/222)) ([eff9a98](https://github.com/brexhq/substation/commit/eff9a98416aa84aac28b8b0861e6b98cf6c6fac6))
+* **transform:** Add Multi-Transform Support to Meta Transforms ([#213](https://github.com/brexhq/substation/issues/213)) ([af44e66](https://github.com/brexhq/substation/commit/af44e6676f49323d21d6010e5b5cd4d59f00d497))
+
+
+### Bug Fixes
+
+* **build/config:** add ID to conditional pattern ([#207](https://github.com/brexhq/substation/issues/207)) ([227a5d9](https://github.com/brexhq/substation/commit/227a5d9eea01545cec2a5039de832611efbdabe0))
+* **condition:** Update Wrapped Error in MetaNegate Inspector ([#216](https://github.com/brexhq/substation/issues/216)) ([9ac1bd1](https://github.com/brexhq/substation/commit/9ac1bd123adbf33935392903c4e1229ec8fc412e))
+* **internal/bufio:** Default Max Token Size ([#220](https://github.com/brexhq/substation/issues/220)) ([e3dfa47](https://github.com/brexhq/substation/commit/e3dfa47a90432e00687fa4bd0565d85b2d1457f8))
+* **transform:** Remove Print in SendFile Transform ([5e93e52](https://github.com/brexhq/substation/commit/5e93e5281e757f8bdf5d5031af260f1f4d2e312b))
+* **transform:** Update Validation for EnrichHTTP Transforms ([2fde138](https://github.com/brexhq/substation/commit/2fde13857679a9e111540cc6b5b0818d3930beff))
+
+## [1.6.0](https://github.com/brexhq/substation/compare/v1.5.0...v1.6.0) (2024-07-17)
+
+
+### Features
+
+* **transform:** Add Send to AWS EventBridge ([#203](https://github.com/brexhq/substation/issues/203)) ([80370e7](https://github.com/brexhq/substation/commit/80370e7e4045a372769344ab01e3da8bacb426c2))
+
+
+### Bug Fixes
+
+* **transform:** Change Kinesis Payload Limit to MB ([#206](https://github.com/brexhq/substation/issues/206)) ([16baaa0](https://github.com/brexhq/substation/commit/16baaa001737be13c5bcf4cda59661cc6136155a))
+* **transform:** Remove Temporary Files from AWS S3 ([#205](https://github.com/brexhq/substation/issues/205)) ([b52078d](https://github.com/brexhq/substation/commit/b52078dacec503f0803d6f46aa87ebce34febd12))
+
+## [1.5.0](https://github.com/brexhq/substation/compare/v1.4.0...v1.5.0) (2024-07-09)
+
+
+### Features
+
+* **transform:** Add Number Maximum Transform ([#195](https://github.com/brexhq/substation/issues/195)) ([8b391de](https://github.com/brexhq/substation/commit/8b391de966bf9672b1c7f1d1728761b475067927))
+* **transform:** Add Number Minimum Transform ([#196](https://github.com/brexhq/substation/issues/196)) ([ea5a592](https://github.com/brexhq/substation/commit/ea5a592d0ca7f02b442d7915ed08eb500dc26c4f))
+* **transform:** Add Storage Class Support to AWS S3 ([#189](https://github.com/brexhq/substation/issues/189)) ([63b96be](https://github.com/brexhq/substation/commit/63b96be941f374bed36d37f3ea01dc0eee7449ba))
+
+## [1.4.0](https://github.com/brexhq/substation/compare/v1.3.0...v1.4.0) (2024-06-27)
+
+
+### Features
+
+* **condition:** Add Number Equal To Inspector ([#187](https://github.com/brexhq/substation/issues/187)) ([aa1d54e](https://github.com/brexhq/substation/commit/aa1d54e11209708aa3374861c41ec68c674441b9))
+* **condition:** Add Number Greater Than Inspector ([#183](https://github.com/brexhq/substation/issues/183)) ([ff966ba](https://github.com/brexhq/substation/commit/ff966baf3543f21f87d71073338c21ba98f03088))
+* **condition:** Add Number Less Than Inspector ([#186](https://github.com/brexhq/substation/issues/186)) ([b949014](https://github.com/brexhq/substation/commit/b9490145c9f8e913f10c044d91c244e82bda3127))
+
+
+### Bug Fixes
+
+* update goretryablehttp and other packages ([#193](https://github.com/brexhq/substation/issues/193)) ([57874df](https://github.com/brexhq/substation/commit/57874df889f0b34012c4bcf6e517ceba7def6365))
+
+## [1.3.0](https://github.com/brexhq/substation/compare/v1.2.2...v1.3.0) (2024-06-17)
+
+
+### Features
+
+* **transform:** Add Customizable Errors to MetaErr ([#174](https://github.com/brexhq/substation/issues/174)) ([3759ccc](https://github.com/brexhq/substation/commit/3759ccc5224abe7a9ae6b736ff9c64a62479eb00))
+* **transform:** Add ID Settings Field ([#181](https://github.com/brexhq/substation/issues/181)) ([ab1a4ff](https://github.com/brexhq/substation/commit/ab1a4ff7b1f7b9a7e216e3794bbbf325206ef927))
+* **transform:** Add Meta KV Store Lock Transform ([#177](https://github.com/brexhq/substation/issues/177)) ([34d2ffb](https://github.com/brexhq/substation/commit/34d2ffb97afbc52fdeed1a1ffcd190ca374553c2))
+* **transform:** Add Metric Freshness Transform ([#178](https://github.com/brexhq/substation/issues/178)) ([04ed699](https://github.com/brexhq/substation/commit/04ed699000ed52605b99176aebf9b15b70203c19))
+* **transform:** Add UtilityControl Transform for Generating Ctrl Messages ([#175](https://github.com/brexhq/substation/issues/175)) ([93b64cd](https://github.com/brexhq/substation/commit/93b64cd888df593937b921e2ae998ef455b1fa0c))
+
+
+### Bug Fixes
+
+* **metrics:** AWS CloudWatch Embedded Metrics Dimensions ([#179](https://github.com/brexhq/substation/issues/179)) ([d6b6c42](https://github.com/brexhq/substation/commit/d6b6c429ccbe341a041a609dc778785b004eb1e7))
+
+## [1.2.2](https://github.com/brexhq/substation/compare/v1.2.1...v1.2.2) (2024-05-06)
+
+
+### Bug Fixes
+
+* **kinesis:** Limit Aggregated Records to 1MB ([#169](https://github.com/brexhq/substation/issues/169)) ([9065f1c](https://github.com/brexhq/substation/commit/9065f1c0d0379620d009a7b5d1abdb3792e13bab))
+* **transform:** Empty Aggregated Kinesis Records ([#171](https://github.com/brexhq/substation/issues/171)) ([7c519fe](https://github.com/brexhq/substation/commit/7c519fef8c03dde5547189d0bd0461db0d942ec1))
+* **transform:** Empty AWS Kinesis Aggregated Records ([841caa9](https://github.com/brexhq/substation/commit/841caa9bfbbbe4698443ba2fe43cd380709fe2fb))
+
+## [1.2.1](https://github.com/brexhq/substation/compare/v1.2.0...v1.2.1) (2024-05-03)
+
+
+### Bug Fixes
+
+* **kinesis:** remove Kinesis aggregation size and count limits ([#168](https://github.com/brexhq/substation/issues/168)) ([156750b](https://github.com/brexhq/substation/commit/156750be54343181be61c36f2543b5d3259b38f1))
+* **transform:** AWS DynamoDB Send Payload ([#166](https://github.com/brexhq/substation/issues/166)) ([83f71b0](https://github.com/brexhq/substation/commit/83f71b00785b3186d0ea9e9392c73bfb40221760))
+
+## [1.2.0](https://github.com/brexhq/substation/compare/v1.1.2...v1.2.0) (2024-04-03)
+
+
+### Features
+
+* **transform:** Add Send for AWS Lambda ([#153](https://github.com/brexhq/substation/issues/153)) ([c517ea5](https://github.com/brexhq/substation/commit/c517ea56b97b314ea0b3fda46786e677377ce6e0))
+
+## [1.1.2](https://github.com/brexhq/substation/compare/v1.1.1...v1.1.2) (2024-03-23)
+
+
+### Bug Fixes
+
+* **enrich_kv_store_set:** default to 0 duration ([#151](https://github.com/brexhq/substation/issues/151)) ([8a1d31c](https://github.com/brexhq/substation/commit/8a1d31ccc457f92028135176b7f650630d09bee9))
+
+## [1.1.1](https://github.com/brexhq/substation/compare/v1.1.0...v1.1.1) (2024-03-21)
+
+
+### Performance Improvements
+
+* **aws:** Reduce Aggregated Kinesis Record Size ([#147](https://github.com/brexhq/substation/issues/147)) ([a0ef232](https://github.com/brexhq/substation/commit/a0ef23263c8a34bcaa413c1cdd1a9c80b8d2f55a))
+* **transform:** Improve AggregateToArray Throughput ([#150](https://github.com/brexhq/substation/issues/150)) ([d730cc6](https://github.com/brexhq/substation/commit/d730cc6b967b6ee853ebf5f6b18f1ead9c1bcb55))
+
+## [1.1.0](https://github.com/brexhq/substation/compare/v1.0.0...v1.1.0) (2024-03-14)
+
+
+### Features
+
+* **autoscale:** Dynamic Kinesis Scaling with Thresholds ([#144](https://github.com/brexhq/substation/issues/144)) ([079fda9](https://github.com/brexhq/substation/commit/079fda9e46f70d8544568ed2ca941416212356d0))
+* **transform:** Add Metrics Bytes Transform ([#142](https://github.com/brexhq/substation/issues/142)) ([d708580](https://github.com/brexhq/substation/commit/d70858085f1be265a02ac5f1298efd986e7f275e))
+
+## [1.0.0](https://github.com/brexhq/substation/compare/v1.0.0-rc.1...v1.0.0) (2024-03-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* `cmd/development/substation` refactored into `cmd/client/file/substation`
+* `condition.Inspector` is no longer in the public API
+* `condition` inspectors refactored into individual functions
+   * JSON Schema inspector removed
+   * Inspectors no longer directly support negation
+* `config.Capsule` refactored into `message` package
+* `config.Channel` is no longer in the public API
+* `process` package refactored into `transform` package
+   * Count processor removed
+   * Flatten processor removed
+   * IP Database processor removed
+   * Processors (Transfoms) no longer directly support conditions
+* `internal/transform` package removed
+* `internal/sink` package removed
+* `proto` removed
+* Secrets are now explicitly retrieved and put into the Secrets Store using the `utility_secret` transform
+* The `enrich_kv_store_set` transform had it's object.key and object.set_key behavior flipped (key is now the value put into the KV, set_key is now the key used in the KV)
+* The `send_http` transform is now `send_http_post`
+* All `TTLOffset` settings are now strings instead of integers (e.g., "15m")
+* Removed application metrics, added `meta_metric_duration` and `utility_metric_count` in transform package
+* Refactored `Transforms` method in substation package
+* Moved `cmd/file/client` application to `examples/cmd/file/client`
+* Renamed multiple fields based on recommendations from GitHub Copilot
+* Sumo Logic support removed (replaced)
+* Group processor removed (replaced)
+
+### Features
+
+
+* Added `substation` package
+* Added `message` package
+* Updated applications to use new concurrency and data processing model
+* Added Kinesis Data Firehose support to `cmd/aws/lambda/substation`
+* Added `meta_negate` inspector to `condition` package
+* Added `meta_err` transform to `transform` package
+* Added `meta_switch` transform to `transform` package
+* Added `string_append` transform to `transform` package
+* Added `string_uuid` transform to `transform` package
+* Added `utility_delay` transform to `transform` package
+* Added `utility_err` transform to `transform` package
+* Added support for non-aggregated data to AWS Kinesis Data Stream transform
+* Added region and assume role support to all AWS transforms
+* Added buffering to several `send` transforms
+* Removed IAM modules in `build/terraform/aws/`
+* Added `build/scripts/config/format.sh`
+* Added `build/scripts/terraform/format.sh`
+* Added shorthand to `build/config/substation.libsonnet`
+* Added `build/config/substation_test.jsonnet`
+* Downgraded `go.mod` and development containers to Go 1.19
+* Upgraded application containers to Go 1.21
+* Refactored all `examples/`
+* Added `utility_secret` transform
+* All transform object handling patterns (object.key) return the input message if the retrieved key value does not exist
+* Secrets Store AWS Secrets Manager backend supports AWS and retry configuration
+* KV Store AWS DynamoDB backend supports AWS and retry configuration
+* Added example for summarizing multiple events into a single event
+* Added example for using MaxMind with the KV transform
+* Added JSON array support to `meta_for_each` in condition package
+* Upgraded `go.mod` to Go 1.20
+* Added multi-region support to Terraform modules
+* Added CloudWatch Terraform modules to collect log data
+* Added (refactor) Secrets Terraform module
+* Added `array_zip` transform
+* IAM roles and policies in Terraform use randomized names
+
+## Bug Fixes
+* Concurrency bug in internal/aggregate package
+
+### Code Refactoring
+
+* Consistent Environment Variable and Application Names ([#141](https://github.com/brexhq/substation/issues/141)) ([e4062f4](https://github.com/brexhq/substation/commit/e4062f4221f0e9fcc897cda7b40a2b2d9f8aa6b2))
+
+## [0.9.2](https://github.com/brexhq/substation/compare/v0.9.1...v0.9.2) (2023-08-10)
+
+
+### Features
+
+* add bitmath inspector ([#128](https://github.com/brexhq/substation/issues/128)) ([4721ffa](https://github.com/brexhq/substation/commit/4721ffaf7fa27aa5d343d33422cd56331ceb4d2f))
+* Add JSON Lines Support to KV Store ([#126](https://github.com/brexhq/substation/issues/126)) ([667ceb3](https://github.com/brexhq/substation/commit/667ceb34f845655879e07845e1304cf01cb80e57))
+* add TTLKey to KV ([#121](https://github.com/brexhq/substation/issues/121)) ([9837287](https://github.com/brexhq/substation/commit/983728745ba4366e87579a570b56c34a159009d7))
+* Allow Multiple URL Interpolations in the HTTP Processor ([#124](https://github.com/brexhq/substation/issues/124)) ([f262f79](https://github.com/brexhq/substation/commit/f262f796cbd47793a72222ddcd147ca2cea6a488))
+
+
+### Bug Fixes
+
+* KV Store Processor TTL Key ([#123](https://github.com/brexhq/substation/issues/123)) ([0ceffc1](https://github.com/brexhq/substation/commit/0ceffc10c89986c0640a8b3d28776b5bc97b4811))
+* use valid path to the for_each inspector settings ([#129](https://github.com/brexhq/substation/issues/129)) ([65d838d](https://github.com/brexhq/substation/commit/65d838d8ea3b12d1c27eb13d53c6b3ef49d16be4))
+
+## [0.9.1](https://github.com/brexhq/substation/compare/v0.9.0...v0.9.1) (2023-05-09)
+
+
+### Features
+
+* Add Benchmark App & No-Op Features ([#108](https://github.com/brexhq/substation/issues/108)) ([ddfb7bc](https://github.com/brexhq/substation/commit/ddfb7bc1f4cd9699766d7673f831d976a150a1fb))
+* Add Stream Transform & Streamer Interface ([#106](https://github.com/brexhq/substation/issues/106)) ([8efd82e](https://github.com/brexhq/substation/commit/8efd82ef0d5c1eb28a9d8316fe5abcea50bfa878))
+* Add Zstandard & Snappy Readers ([#105](https://github.com/brexhq/substation/issues/105)) ([8c69907](https://github.com/brexhq/substation/commit/8c699070f5f6095e34e8d06e7b356ea0d4d5ed40))
+* AWS DynamoDB Ingest (CDC) ([#109](https://github.com/brexhq/substation/issues/109)) ([36c60ac](https://github.com/brexhq/substation/commit/36c60ace4fa829c654c7ec86c606fc8f34ad536b))
+* AWS SNS Sink ([#111](https://github.com/brexhq/substation/issues/111)) ([47e948f](https://github.com/brexhq/substation/commit/47e948f70f1a3df722aec262e0a35ef80ad492d0))
+
+## [0.9.0](https://github.com/brexhq/substation/compare/v0.8.4...v0.9.0) (2023-04-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* Add AWS AppConfig Lambda Validation app ([#92](https://github.com/brexhq/substation/issues/92))
+
+### Features
+
+* Add AWS AppConfig Lambda Validation app ([#92](https://github.com/brexhq/substation/issues/92)) ([f374137](https://github.com/brexhq/substation/commit/f374137066aaf2b4c1043a88f8d4ff11fb042b38))
+* add gt, lt ([#98](https://github.com/brexhq/substation/issues/98)) ([110253b](https://github.com/brexhq/substation/commit/110253b646ccabc340abe5b1c9f3b66b26cc512d))
+* condition inspector ([#86](https://github.com/brexhq/substation/issues/86)) ([e1fcee6](https://github.com/brexhq/substation/commit/e1fcee60ec377b994e92b5f5b3f64aa7523393ef))
+* Customizable Sink Files ([#93](https://github.com/brexhq/substation/issues/93)) ([bee2463](https://github.com/brexhq/substation/commit/bee2463f2a42f7cd5834f04361fedda71db0927b))
+* JQ Processor ([#88](https://github.com/brexhq/substation/issues/88)) ([0adf249](https://github.com/brexhq/substation/commit/0adf2493c6c6052fc67ee8ae62689c763d91c024))
+
+
+### Bug Fixes
+
+* decode object key ([#96](https://github.com/brexhq/substation/issues/96)) ([9e7a6db](https://github.com/brexhq/substation/commit/9e7a6db6cb1124db596e6e27bb3474ba0e16032b))
+
+## [0.8.4](https://github.com/brexhq/substation/compare/v0.8.3...v0.8.4) (2023-03-08)
+
+
+### Features
+
+* Add Playground Demo ([#82](https://github.com/brexhq/substation/issues/82)) ([f519eaf](https://github.com/brexhq/substation/commit/f519eaff367c0f7b2cebd0ba995f247424dc4d79))
+* **CLI:** adds force-sink flag ([#84](https://github.com/brexhq/substation/issues/84)) ([cb7e697](https://github.com/brexhq/substation/commit/cb7e6974993ac9116e9a564f4cdda343ae3f50a3))
+* HTTP Processing & Secrets Retrieval ([#77](https://github.com/brexhq/substation/issues/77)) ([f4e7329](https://github.com/brexhq/substation/commit/f4e73296facefebfde9806d7332d2f2411604a94))
+* object named groups ([#78](https://github.com/brexhq/substation/issues/78)) ([d5f687c](https://github.com/brexhq/substation/commit/d5f687c83227ec149d37224b0a360c843ae3aacf))
+* setkey support ([#81](https://github.com/brexhq/substation/issues/81)) ([5419f5e](https://github.com/brexhq/substation/commit/5419f5ece82ac8dc2ef70412816bada15390da6a))
+
+## [0.8.3](https://github.com/brexhq/substation/compare/v0.8.2...v0.8.3) (2023-01-23)
+
+
+### Features
+
+* Add MMDB Key-Value Store ([#71](https://github.com/brexhq/substation/issues/71)) ([cee1932](https://github.com/brexhq/substation/commit/cee1932cdb73d3f826361f75a5a3a4c57b01d2fa))
+* Add Sync and Async AWS Lambda Ingest ([#72](https://github.com/brexhq/substation/issues/72)) ([141fdf5](https://github.com/brexhq/substation/commit/141fdf543381bd7969a16e65394194ae6042c991))
+
+
+### Bug Fixes
+
+* Aggregate & Capture Processor Options ([#75](https://github.com/brexhq/substation/issues/75)) ([46233a4](https://github.com/brexhq/substation/commit/46233a4164521b6cc30b0c6bae14f9a88d41ee1a))
+
+## [0.8.2](https://github.com/brexhq/substation/compare/v0.8.1...v0.8.2) (2023-01-11)
+
+
+### Features
+
+* Add Sort Key Support to the AWS DynamoDB KV Store ([#68](https://github.com/brexhq/substation/issues/68)) ([517e913](https://github.com/brexhq/substation/commit/517e913ef5373e81117e6e57512f0138b2c30333))
+
+## [0.8.1](https://github.com/brexhq/substation/compare/v0.8.0...v0.8.1) (2023-01-10)
+
+
+### Features
+
+* Add Key-Value Store Functionality ([#66](https://github.com/brexhq/substation/issues/66)) ([39b88c9](https://github.com/brexhq/substation/commit/39b88c94bb0acc0dec6994ea8b0b8076b68a8153))
+
+## [0.8.0](https://github.com/brexhq/substation/compare/v0.7.1...v0.8.0) (2023-01-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* Breaking Public APIs ([#53](https://github.com/brexhq/substation/issues/53))
+
+### Code Refactoring
+
+* Breaking Public APIs ([#53](https://github.com/brexhq/substation/issues/53)) ([433ec9c](https://github.com/brexhq/substation/commit/433ec9cd5821660549e0ab9d2a81d69fdc49cb1c))
+
+## [0.7.1](https://github.com/brexhq/substation/compare/v0.7.0...v0.7.1) (2022-12-19)
+
+
+### Bug Fixes
+
+* DNS errors ([#50](https://github.com/brexhq/substation/issues/50)) ([2c9e524](https://github.com/brexhq/substation/commit/2c9e5248aa6e4e7c4c739264cd9e4a822337f076))
+* IPDatabase Concurrency ([#49](https://github.com/brexhq/substation/issues/49)) ([f799a6f](https://github.com/brexhq/substation/commit/f799a6f152b2877d7136e1901e06f2fbba137121))
+
+## [0.7.0](https://github.com/brexhq/substation/compare/v0.6.1...v0.7.0) (2022-12-13)
+
+
+### Features
+
+* DNS and IP Database Processing ([#39](https://github.com/brexhq/substation/issues/39)) ([0e43886](https://github.com/brexhq/substation/commit/0e4388681143a7bd916529116520b0f66a20aa9f))
+* process.Replace allow replacing with nothing ([#42](https://github.com/brexhq/substation/issues/42)) ([7aeeb44](https://github.com/brexhq/substation/commit/7aeeb4426794484dee724ab6a4249b399b00184d))
+
+
+### Bug Fixes
+
+* ms-fontobject false positive ([#46](https://github.com/brexhq/substation/issues/46)) ([56016f2](https://github.com/brexhq/substation/commit/56016f29f58a56f4556a3f3463837b4a6696effd))
+* process.IPDatabase Errors, condition.IP Type ([#44](https://github.com/brexhq/substation/issues/44)) ([a2cf347](https://github.com/brexhq/substation/commit/a2cf347d1b018b384476a7cafe44a1309463871e))
+
+## [0.6.1](https://github.com/brexhq/substation/compare/v0.6.0...v0.6.1) (2022-12-05)
+
+
+### Bug Fixes
+
+* ForEach JSON selection ([#40](https://github.com/brexhq/substation/issues/40)) ([e1a8ae5](https://github.com/brexhq/substation/commit/e1a8ae58f98b0a8d47b578dbbe7e7bc08a089290))
+
+## [0.6.0](https://github.com/brexhq/substation/compare/v0.5.0...v0.6.0) (2022-11-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* Standardizing Use of io ([#38](https://github.com/brexhq/substation/issues/38))
+
+### Features
+
+* add for_each condition ([#37](https://github.com/brexhq/substation/issues/37)) ([6771180](https://github.com/brexhq/substation/commit/6771180dd1d62dfa936f43e6164aba2bf2bcf6d7))
+* Add gRPC Support ([#34](https://github.com/brexhq/substation/issues/34)) ([04b4917](https://github.com/brexhq/substation/commit/04b4917f8dee59bdcec23c7a1af90bd27197beb2))
+
+
+### Code Refactoring
+
+* Standardizing Use of io ([#38](https://github.com/brexhq/substation/issues/38)) ([0368d78](https://github.com/brexhq/substation/commit/0368d782dd575d996f45b25a72cb40356c01b515))
+
+## [0.5.0](https://github.com/brexhq/substation/compare/v0.4.0...v0.5.0) (2022-10-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update App Concurrency Model (#30)
+* Add Forward Compatibility for SNS (#21)
+
+### Features
+
+* Add Forward Compatibility for SNS ([#21](https://github.com/brexhq/substation/issues/21)) ([b93dc1e](https://github.com/brexhq/substation/commit/b93dc1e29b05165ed790eee201e41b2482a967c5))
+* Add Initial Support for Application Metrics ([#25](https://github.com/brexhq/substation/issues/25)) ([30f103d](https://github.com/brexhq/substation/commit/30f103d44a5e7075df24a2813aa0c4d50150e276))
+* AppConfig Script Updates ([#28](https://github.com/brexhq/substation/issues/28)) ([5261485](https://github.com/brexhq/substation/commit/52614853b3ebd1df587b90f0a20a8e10003d8112))
+* Customizable Kinesis Data Stream Autoscaling ([#27](https://github.com/brexhq/substation/issues/27)) ([2dd7ea7](https://github.com/brexhq/substation/commit/2dd7ea74269bbaa9591d9fc50ad3ccae4102a0fd))
+* Improvements to JSON Parsing ([#29](https://github.com/brexhq/substation/issues/29)) ([98cac69](https://github.com/brexhq/substation/commit/98cac69fd75a41fc464d3e269b77698f0693c638))
+* Improvements to Reading and Decoding Files ([#24](https://github.com/brexhq/substation/issues/24)) ([e310cb5](https://github.com/brexhq/substation/commit/e310cb5a8e1f32e52cb695764b88d58411a94ebc))
+
+
+### Bug Fixes
+
+* **linter:** fix golangci-lint warnings across substation ([#32](https://github.com/brexhq/substation/issues/32)) ([9b7e077](https://github.com/brexhq/substation/commit/9b7e077750e12147bf456d8ecc95256fb168b0e1))
+* streamname bug ([#23](https://github.com/brexhq/substation/issues/23)) ([da9de62](https://github.com/brexhq/substation/commit/da9de628d79aeaffe2192748b8e5bdb1245aed02))
+
+
+### Code Refactoring
+
+* Update App Concurrency Model ([#30](https://github.com/brexhq/substation/issues/30)) ([d8df4e2](https://github.com/brexhq/substation/commit/d8df4e2d2df63621453ea78b4156f4b8b36ba1bd))
+
+## [0.4.0](https://github.com/brexhq/substation/compare/v0.3.0...v0.4.0) (2022-08-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* Encapsulation (#15)
+
+### Features
+
+* Add Random Condition ([#18](https://github.com/brexhq/substation/issues/18)) ([302f24a](https://github.com/brexhq/substation/commit/302f24aae56f8f7ed8d7aee1f16ef6a335dee1a2))
+* Data Aggregation ([#10](https://github.com/brexhq/substation/issues/10)) ([6cab3f7](https://github.com/brexhq/substation/commit/6cab3f75862d5a299a2aaa33d00f82c42283b895))
+* Encapsulation ([#15](https://github.com/brexhq/substation/issues/15)) ([e46e780](https://github.com/brexhq/substation/commit/e46e780a1f3c0544046a41966073ce9b99e7e14f))
+* PrettyPrint Processor ([#12](https://github.com/brexhq/substation/issues/12)) ([fa7a8f7](https://github.com/brexhq/substation/commit/fa7a8f7e1d7d326f65ddb95ca92fbf4e08fc2a8f))
+
+
+### Bug Fixes
+
+* Handling Large S3 Files ([#20](https://github.com/brexhq/substation/issues/20)) ([2791b91](https://github.com/brexhq/substation/commit/2791b912877bd722fea66a0bffb383552cab1400))
+* Process Jsonnet Errors ([#11](https://github.com/brexhq/substation/issues/11)) ([9507c83](https://github.com/brexhq/substation/commit/9507c8324dc47a40547bb65c67baf827c422ec4c))
+* replace golint with staticcheck ([#16](https://github.com/brexhq/substation/issues/16)) ([3898992](https://github.com/brexhq/substation/commit/3898992e4888e2c7d6a5c9ca0ec54eb0fa993a25))
+
+## [0.3.0](https://github.com/brexhq/substation/compare/v0.2.0...v0.3.0) (2022-07-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* Migrate to Meta Processors (#7)
+
+### Features
+
+* Migrate to Meta Processors ([#7](https://github.com/brexhq/substation/issues/7)) ([f0aabce](https://github.com/brexhq/substation/commit/f0aabce1e60b6be31ab3151e70b472a912741116))
+
+## [0.2.0](https://github.com/brexhq/substation/compare/v0.1.0...v0.2.0) (2022-06-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* Pre-release Refactor (#5)
+
+### Features
+
+* Add base64 Processor ([#4](https://github.com/brexhq/substation/issues/4)) ([cc76318](https://github.com/brexhq/substation/commit/cc7631811b59515321478918be5efaa19430649b))
+* Adds Gzip Processor and Content Inspector ([#2](https://github.com/brexhq/substation/issues/2)) ([cdd2999](https://github.com/brexhq/substation/commit/cdd29999f850a77458063415dbe6b285ea3ebcc4))
+
+
+### Code Refactoring
+
+* Pre-release Refactor ([#5](https://github.com/brexhq/substation/issues/5)) ([c89ced4](https://github.com/brexhq/substation/commit/c89ced4fd1a69a23492c163471b7dcc861d0c892))

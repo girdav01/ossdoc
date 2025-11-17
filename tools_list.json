@@ -1,0 +1,629 @@
+{
+  "tools": [
+    {
+      "name": "ansible-os-hardening",
+      "owner": "dev-sec",
+      "github_url": "https://github.com/dev-sec/ansible-os-hardening",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "phpsploit",
+      "owner": "nil0x42",
+      "github_url": "https://github.com/nil0x42/phpsploit",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-industrial-control-system-security",
+      "owner": "mpesen",
+      "github_url": "https://github.com/mpesen/awesome-industrial-control-system-security",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "fibratus",
+      "owner": "rabbitstack",
+      "github_url": "https://github.com/rabbitstack/fibratus",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "wazuh",
+      "owner": "wazuh",
+      "github_url": "https://github.com/wazuh/wazuh",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "anevicon",
+      "owner": "rozgo",
+      "github_url": "https://github.com/rozgo/anevicon",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "retraced",
+      "owner": "retracedhq",
+      "github_url": "https://github.com/retracedhq/retraced",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-security",
+      "owner": "sbilly",
+      "github_url": "https://github.com/sbilly/awesome-security",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "movies-for-hackers",
+      "owner": "k4m4",
+      "github_url": "https://github.com/k4m4/movies-for-hackers",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "zap-api-nodejs",
+      "owner": "zaproxy",
+      "github_url": "https://github.com/zaproxy/zap-api-nodejs",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "amass",
+      "owner": "caffix",
+      "github_url": "https://github.com/caffix/amass",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "opensnitch",
+      "owner": "evilsocket",
+      "github_url": "https://github.com/evilsocket/opensnitch",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "shellclear",
+      "owner": "rusty-ferris-club",
+      "github_url": "https://github.com/rusty-ferris-club/shellclear",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-sec-talks",
+      "owner": "PaulSec",
+      "github_url": "https://github.com/PaulSec/awesome-sec-talks",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "Sublist3r",
+      "owner": "aboul3la",
+      "github_url": "https://github.com/aboul3la/Sublist3r",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "curiefense",
+      "owner": "curiefense",
+      "github_url": "https://github.com/curiefense/curiefense",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-anti-forensic",
+      "owner": "remiflavien1",
+      "github_url": "https://github.com/remiflavien1/awesome-anti-forensic",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-crypto-papers",
+      "owner": "pFarb",
+      "github_url": "https://github.com/pFarb/awesome-crypto-papers",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "axiom",
+      "owner": "pry0cc",
+      "github_url": "https://github.com/pry0cc/axiom",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "quark-engine",
+      "owner": "quark-engine",
+      "github_url": "https://github.com/quark-engine/quark-engine",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "frida",
+      "owner": "frida",
+      "github_url": "https://github.com/frida/frida",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "boofuzz",
+      "owner": "jtpereyda",
+      "github_url": "https://github.com/jtpereyda/boofuzz",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-ctf",
+      "owner": "apsdehal",
+      "github_url": "https://github.com/apsdehal/awesome-ctf",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "openrasp",
+      "owner": "baidu",
+      "github_url": "https://github.com/baidu/openrasp",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-electronjs-hacking",
+      "owner": "doyensec",
+      "github_url": "https://github.com/doyensec/awesome-electronjs-hacking",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "fingerprint-android",
+      "owner": "fingerprintjs",
+      "github_url": "https://github.com/fingerprintjs/fingerprint-android",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "reFlutter",
+      "owner": "ptswarm",
+      "github_url": "https://github.com/ptswarm/reFlutter",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-awesomeness",
+      "owner": "bayandin",
+      "github_url": "https://github.com/bayandin/awesome-awesomeness",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-threat-intelligence",
+      "owner": "hslatman",
+      "github_url": "https://github.com/hslatman/awesome-threat-intelligence",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-yara",
+      "owner": "InQuest",
+      "github_url": "https://github.com/InQuest/awesome-yara",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "AMExtractor",
+      "owner": "ir193",
+      "github_url": "https://github.com/ir193/AMExtractor",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "cyberowl",
+      "owner": "karimhabush",
+      "github_url": "https://github.com/karimhabush/cyberowl",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "metasploit-framework",
+      "owner": "rapid7",
+      "github_url": "https://github.com/rapid7/metasploit-framework",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-security-hardening",
+      "owner": "decalage2",
+      "github_url": "https://github.com/decalage2/awesome-security-hardening",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "themis",
+      "owner": "cossacklabs",
+      "github_url": "https://github.com/cossacklabs/themis",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "kics",
+      "owner": "Checkmarx",
+      "github_url": "https://github.com/Checkmarx/kics",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "tfsec",
+      "owner": "tfsec",
+      "github_url": "https://github.com/tfsec/tfsec",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "substation",
+      "owner": "brexhq",
+      "github_url": "https://github.com/brexhq/substation",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "intelmq",
+      "owner": "certtools",
+      "github_url": "https://github.com/certtools/intelmq",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "ir-rescue",
+      "owner": "diogo-fernan",
+      "github_url": "https://github.com/diogo-fernan/ir-rescue",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "PayloadsAllTheThings",
+      "owner": "swisskyrepo",
+      "github_url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "Artemis",
+      "owner": "CERT-Polska",
+      "github_url": "https://github.com/CERT-Polska/Artemis",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "legion",
+      "owner": "GoVanguard",
+      "github_url": "https://github.com/GoVanguard/legion",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "ThreatMapper",
+      "owner": "deepfence",
+      "github_url": "https://github.com/deepfence/ThreatMapper",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "logdissect",
+      "owner": "dogoncouch",
+      "github_url": "https://github.com/dogoncouch/logdissect",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "passivedns",
+      "owner": "gamelinux",
+      "github_url": "https://github.com/gamelinux/passivedns",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "Redcloud",
+      "owner": "khast3x",
+      "github_url": "https://github.com/khast3x/Redcloud",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "padding-oracle-attacker",
+      "owner": "KishanBagaria",
+      "github_url": "https://github.com/KishanBagaria/padding-oracle-attacker",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "safe",
+      "owner": "starkandwayne",
+      "github_url": "https://github.com/starkandwayne/safe",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-analytics",
+      "owner": "0xnr",
+      "github_url": "https://github.com/0xnr/awesome-analytics",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "ironbee",
+      "owner": "ironbee",
+      "github_url": "https://github.com/ironbee/ironbee",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "jadx",
+      "owner": "skylot",
+      "github_url": "https://github.com/skylot/jadx",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "PFQ",
+      "owner": "pfq",
+      "github_url": "https://github.com/pfq/PFQ",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "firezone",
+      "owner": "firezone",
+      "github_url": "https://github.com/firezone/firezone",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-privacy",
+      "owner": "lissy93",
+      "github_url": "https://github.com/lissy93/awesome-privacy",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "osx-security-awesome",
+      "owner": "kai5263499",
+      "github_url": "https://github.com/kai5263499/osx-security-awesome",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "keyscope",
+      "owner": "SpectralOps",
+      "github_url": "https://github.com/SpectralOps/keyscope",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "cicd-goat",
+      "owner": "cider-security-research",
+      "github_url": "https://github.com/cider-security-research/cicd-goat",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-arm-exploitation",
+      "owner": "HenryHoggard",
+      "github_url": "https://github.com/HenryHoggard/awesome-arm-exploitation",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "bearer",
+      "owner": "Bearer",
+      "github_url": "https://github.com/Bearer/bearer",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-censys-queries",
+      "owner": "thehappydinoa",
+      "github_url": "https://github.com/thehappydinoa/awesome-censys-queries",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "recon",
+      "owner": "rusty-ferris-club",
+      "github_url": "https://github.com/rusty-ferris-club/recon",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-selfhosted",
+      "owner": "awesome-selfhosted",
+      "github_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "checkov",
+      "owner": "bridgecrewio",
+      "github_url": "https://github.com/bridgecrewio/checkov",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "SecretScanner",
+      "owner": "deepfence",
+      "github_url": "https://github.com/deepfence/SecretScanner",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "sql_firewall",
+      "owner": "uptimejp",
+      "github_url": "https://github.com/uptimejp/sql_firewall",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "kippo",
+      "owner": "desaster",
+      "github_url": "https://github.com/desaster/kippo",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "bunkerweb",
+      "owner": "bunkerity",
+      "github_url": "https://github.com/bunkerity/bunkerweb",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "fingerprintjs",
+      "owner": "fingerprintjs",
+      "github_url": "https://github.com/fingerprintjs/fingerprintjs",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-bluetooth-security",
+      "owner": "engn33r",
+      "github_url": "https://github.com/engn33r/awesome-bluetooth-security",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "massive-octo-spice",
+      "owner": "csirtgadgets",
+      "github_url": "https://github.com/csirtgadgets/massive-octo-spice",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-threat-modeling",
+      "owner": "redshiftzero",
+      "github_url": "https://github.com/redshiftzero/awesome-threat-modeling",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-incident-response",
+      "owner": "meirwah",
+      "github_url": "https://github.com/meirwah/awesome-incident-response",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "blackbox",
+      "owner": "StackExchange",
+      "github_url": "https://github.com/StackExchange/blackbox",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "LogESP",
+      "owner": "dogoncouch",
+      "github_url": "https://github.com/dogoncouch/LogESP",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "owasp-testing-checklist-v4-markdown",
+      "owner": "amocrenco",
+      "github_url": "https://github.com/amocrenco/owasp-testing-checklist-v4-markdown",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "incubator-metron",
+      "owner": "apache",
+      "github_url": "https://github.com/apache/incubator-metron",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "guardrails",
+      "owner": "apps",
+      "github_url": "https://github.com/apps/guardrails",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "Pompem",
+      "owner": "rfunix",
+      "github_url": "https://github.com/rfunix/Pompem",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "Network-segmentation-cheat-sheet",
+      "owner": "sergiomarotco",
+      "github_url": "https://github.com/sergiomarotco/Network-segmentation-cheat-sheet",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "enjarify",
+      "owner": "Storyyeller",
+      "github_url": "https://github.com/Storyyeller/enjarify",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "acra",
+      "owner": "cossacklabs",
+      "github_url": "https://github.com/cossacklabs/acra",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "personal-security-checklist",
+      "owner": "Lissy93",
+      "github_url": "https://github.com/Lissy93/personal-security-checklist",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-pentest",
+      "owner": "enaqx",
+      "github_url": "https://github.com/enaqx/awesome-pentest",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-sysadmin",
+      "owner": "awesome-foss",
+      "github_url": "https://github.com/awesome-foss/awesome-sysadmin",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "Apktool",
+      "owner": "iBotPeaches",
+      "github_url": "https://github.com/iBotPeaches/Apktool",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "rspamd",
+      "owner": "rspamd",
+      "github_url": "https://github.com/rspamd/rspamd",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "crowdsec",
+      "owner": "crowdsecurity",
+      "github_url": "https://github.com/crowdsecurity/crowdsec",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "ptf",
+      "owner": "trustedsec",
+      "github_url": "https://github.com/trustedsec/ptf",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "lunasec",
+      "owner": "lunasec-io",
+      "github_url": "https://github.com/lunasec-io/lunasec",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "vast",
+      "owner": "tenzir",
+      "github_url": "https://github.com/tenzir/vast",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "nodegoat",
+      "owner": "owasp",
+      "github_url": "https://github.com/owasp/nodegoat",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-websocket-security",
+      "owner": "PalindromeLabs",
+      "github_url": "https://github.com/PalindromeLabs/awesome-websocket-security",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-php",
+      "owner": "ziadoz",
+      "github_url": "https://github.com/ziadoz/awesome-php",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "scanmycode-ce",
+      "owner": "marcinguy",
+      "github_url": "https://github.com/marcinguy/scanmycode-ce",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "CakeFuzzer",
+      "owner": "Zigrin-Security",
+      "github_url": "https://github.com/Zigrin-Security/CakeFuzzer",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "Android-Storage-Extractor",
+      "owner": "51j0",
+      "github_url": "https://github.com/51j0/Android-Storage-Extractor",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-linux-containers",
+      "owner": "Friz-zy",
+      "github_url": "https://github.com/Friz-zy/awesome-linux-containers",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "awesome-threat-detection",
+      "owner": "0x4D31",
+      "github_url": "https://github.com/0x4D31/awesome-threat-detection",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "preflight",
+      "owner": "spectralops",
+      "github_url": "https://github.com/spectralops/preflight",
+      "source_list": "awesome-security"
+    },
+    {
+      "name": "cybersources",
+      "owner": "brunoooost",
+      "github_url": "https://github.com/brunoooost/cybersources",
+      "source_list": "awesome-hacking"
+    },
+    {
+      "name": "sqlmap",
+      "owner": "sqlmapproject",
+      "github_url": "https://github.com/sqlmapproject/sqlmap",
+      "source_list": "awesome-hacking-tools"
+    },
+    {
+      "name": "ioc_parser",
+      "owner": "armbues",
+      "github_url": "https://github.com/armbues/ioc_parser",
+      "source_list": "awesome-threat-intelligence"
+    },
+    {
+      "name": "AutoTTP",
+      "owner": "jymcheong",
+      "github_url": "https://github.com/jymcheong/AutoTTP",
+      "source_list": "awesome-incident-response"
+    }
+  ],
+  "count": 104
+}

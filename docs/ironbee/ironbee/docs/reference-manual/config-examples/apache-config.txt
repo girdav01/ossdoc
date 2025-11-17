@@ -1,0 +1,13 @@
+# IfModule serves for distributions using certain kinds of
+# configuration tool.  It's not useful for individual configurations,
+# and may make troubleshooting harder.
+
+<IfModule ironbee_module>
+    IronbeeConfigFile /usr/local/ironbee/etc/ironbee.conf
+
+    #Further directives available but having defaults (shown here)
+    #likely to work for most users
+    IronbeeRawHeaders On
+    IronbeeLog On
+    IronbeeLogLevel 4
+</IfModule>

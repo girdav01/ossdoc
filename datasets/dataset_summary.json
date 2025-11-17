@@ -1,0 +1,15 @@
+{
+  "dataset_name": "Cybersecurity OSS Tools Instruction Dataset",
+  "created_at": "2025-11-17T22:49:27.905949",
+  "total_instructions": 1195,
+  "sources": {
+    "tools": 104,
+    "yara_rules": 100,
+    "sigma_rules": 100
+  },
+  "instruction_types": {
+    "tool_documentation": 795,
+    "yara_rules": 200,
+    "sigma_rules": 200
+  }
+}

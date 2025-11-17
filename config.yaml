@@ -1,0 +1,54 @@
+# Configuration for Cybersecurity Documentation Scraper
+
+# Sources for top cybersecurity tools lists
+tool_sources:
+  # Awesome lists on GitHub
+  - url: "https://raw.githubusercontent.com/sbilly/awesome-security/master/README.md"
+    type: "awesome_list"
+    name: "awesome-security"
+
+  - url: "https://raw.githubusercontent.com/Hack-with-Github/Awesome-Hacking/master/README.md"
+    type: "awesome_list"
+    name: "awesome-hacking"
+
+  - url: "https://raw.githubusercontent.com/carpedm20/awesome-hacking/master/README.md"
+    type: "awesome_list"
+    name: "awesome-hacking-tools"
+
+  - url: "https://raw.githubusercontent.com/hslatman/awesome-threat-intelligence/master/README.md"
+    type: "awesome_list"
+    name: "awesome-threat-intelligence"
+
+  - url: "https://raw.githubusercontent.com/meirwah/awesome-incident-response/master/README.md"
+    type: "awesome_list"
+    name: "awesome-incident-response"
+
+# YARA rules sources
+yara_sources:
+  - url: "https://github.com/Yara-Rules/rules"
+    name: "yara-rules-collection"
+
+  - url: "https://github.com/elastic/protections-artifacts"
+    name: "elastic-yara-rules"
+
+  - url: "https://github.com/reversinglabs/reversinglabs-yara-rules"
+    name: "reversinglabs-yara-rules"
+
+# Sigma rules sources
+sigma_sources:
+  - url: "https://github.com/SigmaHQ/sigma"
+    name: "sigma-hq"
+
+# Output configuration
+output:
+  docs_dir: "docs"
+  dataset_dir: "datasets"
+  dataset_format: "jsonl"  # JSONL format for instruction datasets
+  max_tools_per_source: 100  # Limit to prevent overwhelming
+
+# Scraping configuration
+scraping:
+  delay_between_requests: 1  # seconds
+  max_retries: 3
+  timeout: 30
+  user_agent: "CybersecurityDocsBot/1.0"

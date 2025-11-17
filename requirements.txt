@@ -1,0 +1,9 @@
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+PyGithub>=2.1.1
+markdown>=3.5.0
+html2text>=2020.1.16
+gitpython>=3.1.40
+pyyaml>=6.0.0
+tqdm>=4.66.0
+urllib3>=2.1.0
